@@ -73,20 +73,9 @@ pip install -r requirements.txt
 
 ```env
 BOT_TOKEN=your_botfather_token
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=iitu_schedule_bot
-DB_USER=postgres
-DB_PASSWORD=your_password
 ```
 
-### 4. Create a PostgreSQL database
-
-```sql
-CREATE DATABASE iitu_schedule_bot;
-```
-
-### 5. Run the bot
+### 4. Run the bot
 
 ```bash
 python bot.py
